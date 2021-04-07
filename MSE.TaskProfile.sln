@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSE.TaskProfile.Entities", "MSE.TaskProfile.Entities\MSE.TaskProfile.Entities.csproj", "{D721D29E-6505-4D82-91D7-E542574511BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSE.TaskProfile.Entities", "MSE.TaskProfile.Entities\MSE.TaskProfile.Entities.csproj", "{D721D29E-6505-4D82-91D7-E542574511BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSE.TaskProfile.DataAccess", "MSE.TaskProfile.DataAccess\MSE.TaskProfile.DataAccess.csproj", "{36E85CBF-6476-479B-ADEC-1151F1E55796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSE.TaskProfile.DataAccess", "MSE.TaskProfile.DataAccess\MSE.TaskProfile.DataAccess.csproj", "{36E85CBF-6476-479B-ADEC-1151F1E55796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSE.TaskProfile.Business", "MSE.TaskProfile.Business\MSE.TaskProfile.Business.csproj", "{F6219E17-F2C9-4D5F-9764-61663219DC24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSE.TaskProfile.Business", "MSE.TaskProfile.Business\MSE.TaskProfile.Business.csproj", "{F6219E17-F2C9-4D5F-9764-61663219DC24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSE.TaskProfile.WebApi", "MSE.TaskProfile.WebApi\MSE.TaskProfile.WebApi.csproj", "{0620D09B-7B5D-420E-9C7B-EDB58C71DF11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSE.TaskProfile.WebApi", "MSE.TaskProfile.WebApi\MSE.TaskProfile.WebApi.csproj", "{0620D09B-7B5D-420E-9C7B-EDB58C71DF11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSE.TestProfile.DTO", "MSE.TestProfile.DTO\MSE.TestProfile.DTO.csproj", "{C45F9AC7-535B-49CE-B281-1224566AF605}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0620D09B-7B5D-420E-9C7B-EDB58C71DF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0620D09B-7B5D-420E-9C7B-EDB58C71DF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0620D09B-7B5D-420E-9C7B-EDB58C71DF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C45F9AC7-535B-49CE-B281-1224566AF605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45F9AC7-535B-49CE-B281-1224566AF605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45F9AC7-535B-49CE-B281-1224566AF605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45F9AC7-535B-49CE-B281-1224566AF605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

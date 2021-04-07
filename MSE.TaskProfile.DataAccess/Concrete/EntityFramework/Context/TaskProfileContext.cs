@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MSE.TaskProfile.DataAccess.Concrete.EntityFramework.Mapping;
 using MSE.TaskProfile.Entities.Concrete;
 using System;
 using System.Threading;
@@ -13,6 +14,11 @@ namespace MSE.TaskProfile.DataAccess.Concrete.EntityFramework.Context
             optionsBuilder.UseSqlServer("Server=Serkan-Ekinci;Database=TaskProfile;Trusted_Connection=True;")
                 .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             base.OnConfiguring(optionsBuilder);
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new UserMap());
         }
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)
